@@ -6,6 +6,8 @@ metadata:
   labels:
     app: python
 spec:
+  imagePullSecrets:
+  - name: regcred
   replicas: 2
   selector:
     matchLabels:
