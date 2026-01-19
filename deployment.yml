@@ -19,6 +19,6 @@ spec:
       - name: regcred
       containers:
       - name: python
-        image: harshachess/flask-python:10.0.0
+        image: harshachess/flask-python
         ports:
         - containerPort: 5000
