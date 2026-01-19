@@ -2,7 +2,7 @@
 FROM python:3.9-slim  
 
 # Set the working directory
-WORKDIR /app  
+WORKDIR /
 
 # Copy project files into the container
 COPY . /app.py  
